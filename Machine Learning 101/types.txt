@@ -1,0 +1,87 @@
+1. Problem Defination:-
+---------------------------
+Supervised Learning:
+1. Classificatin
+2. Regression
+
+Unsupervise Learning:
+1. Clastering
+2. Association Rule Learning
+*** Transfer Learning
+
+Reinforcement Learning:
+Skill accuisition
+Real time Learning
+
+2. Data :-
+----------------------------
+
+1. Structured Data
+2. Unstructred Data...audio, video.....converted to number
+
+1. Static Data
+2. Dynamic Data........streaming data......
+
+Data Science workflow:
+Static Data, CSV -> jupyter-> pandas-> data analysis ->mathplotlib -> scikit-learn (Machine learning model)-> decision
+
+
+3. Evaluation: -
+--------------------------
+Different types of matrics
+
+Classificatin   -----   Regression  -----   Recommendation
+Accuracy        -----   MAE         -----   Precision at K
+Precision       -----   MSE         -----   
+Recall          -----   RMSE        -----   
+
+4. Features: - 
+i.. Structured Data.......
+    1. {A} Feature Variable to predict the {B} Target variables
+        2A. Numerical Features
+        2B. Catagorical Features
+        2C. Derieved Features
+
+ii.. Unstructred Data.......
+
+5. Modeling:-
+
+    I. Part-1:Choosing and Training a model....***Train Set...Class Exam
+        70-80% split...
+        Training Data
+    II. Part-2:Tuning a Model...***Validation Set...Test Exam
+        10-15% split...
+        Validation Data
+    III. Part-3:Model Comparison....***Test Set...Final Exam
+        10-15% split...
+        Comparison Data
+
+    
+
+    Training Data 
+    #####################################
+    
+    A. Choosing a model:
+        1. For Structured Data:
+                CatBoost
+                XGBoost
+                Random Forest
+                Decision Tree
+        2. For Unstructred Data:
+                Deep Learning
+                Transfer Learning
+                Neural Networks
+    
+    B. Training a model:
+        X(Data)
+        y(Label)
+        Goal: Minimise time between experiments
+            Accuracy-> 87.5% (3min)....91.3%(92min)...94.7%(176min)
+
+
+    Validation Data 
+    #############################
+
+    
+        
+        
