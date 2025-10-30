@@ -82,6 +82,47 @@ ii.. Unstructred Data.......
     Validation Data 
     #############################
 
+        1. Machine learning models have hyperparameter you can adjust 
+        2. A models first result aren't its last
+        3. Tuning can take place on training or validation data sets
+        
     
+    Comparison/Test Data
+    ##############################
+
+    How will our model perform in the real world?
+
+        Good Model:
+            A good model would yield similar result in Training, Validation  and Test set
+            Data Set    Performance
+            Training    98%
+            Test        96%
+
+        Underfitting (potential)
+            Data Set    Performance
+            Training    64% (Precision is higher)
+            Test        47%
+                Due to Data mismatch
+                    Fixing: 
+                        a. Try a more advanced model
+                        b. Increase model hyperparameters
+                        c. Reduce amount of Features
+                        d. Train longer
+
+
+        Overfitting (potential)
+            Data Set    Performance
+            Training    93%
+            Test        99% (Accuracy is higher)
+                Due to Data leakage
+                    Fixing:
+                        a. Collect more data
+                        b. Try less advanced model
+
         
-        
+6. Experimentations:-
+    How could we improve/What can we try next?
+    
+
+
+    
